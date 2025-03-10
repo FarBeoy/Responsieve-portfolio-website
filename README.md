@@ -1,5 +1,6 @@
-# Responsieve-portfolio-website
-Personal portfolio website showcasing my skills, projects, and experience as a software developer.
+# Personal Portfolio Website  
+
+This is my **personal portfolio website**, designed to showcase my skills, projects, and experience as a **software developer** with a passion for **cybersecurity**.  
 
 ## Live Demo  
 🔗 [View Portfolio](https://farbeoy.github.io/Responsieve-portfolio-website/)  
