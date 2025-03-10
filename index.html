@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Gabriel Wozniak">
+    <meta name="keywords" content="software developer, portfolio">
+    <title>Portfolio</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <!-- JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js" defer="defer"></script>
+    <script src="https://unpkg.com/scrollreveal" defer="defer"></script>
+    <script src="assets/js/main.js"></script>
+
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header id="header" class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="index.html" class="nav__brand"> G.Wozniak
+                </a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#hero" class="nav__link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">Over Mij</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">Vaardigheden</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#project" class="nav__link">Projecten</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav__toggle">
+                    <i id="nav-toggle" class="ri-menu-3-line"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main -->
+    <main class="main">
+
+        <!-- Hero -->
+        <section id="hero" class="hero">
+            <div class="container">
+                <div class="d-grid hero__wrapper">
+                    <div class="hero__content">
+                        <h1 class="hero__title">Gabriel Wozniak,<br>Softwareontwikkelaar.</h1>
+                        <p class="hero__description">
+                            Ik ben een softwareontwikkelaar met een passie voor cybersecurity.
+                            <br><br>
+                            <a href="#" download class="btn btn--primary">Bekijk CV</a>
+                        </p>
+                    </div>
+                    <img src="assets/media/default-profile.jpg" alt="Gabriel" class="hero__img">
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section id="about" class="section about">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Over Mij</h2>
+                    <span class="section__subtitle">Wie ik ben</span>
+                </div>
+                <div class="about__wrapper">
+                    <div class="about__content">
+                        <h3 class="about__title">Mijn vaardigheden</h3>
+                        <p class="about__description"> Als softwareontwikkelaar ben ik goed in het bouwen van flexibele
+                            systemen en het oplossen van technische uitdagingen. De laatste tijd richt ik me echter
+                            steeds meer op cybersecurity. Via platforms zoals Hack The Box en mijn eigen virtuele
+                            Linux-machine, ben ik bezig met het leren van ethisch hacken.</p>
+                    </div>
+                    <div class="about__skills">
+                        <div class="about__skill">
+                            <i class="ri-code-s-slash-line"></i>
+                            <h4 class="about__skill-title">Technische Vaardigheden</h4>
+                            <p class="about__skill-description">Ik ben handig met zowel front-end als back-end
+                                development. Van HTML en CSS tot JavaScript en PHP, ik zorg ervoor dat alles goed werkt,
+                                ook met databases zoals SQLite.</p>
+                        </div>
+                        <div class="about__skill">
+                            <i class="ri-shield-keyhole-line"></i>
+                            <h4 class="about__skill-title">Cybersecurity</h4>
+                            <p class="about__skill-description">Mijn interesse in cybersecurity groeit snel. Ik leer
+                                ethisch hacken via platforms zoals Hack The Box en werk aan het beveiligen van mijn
+                                eigen Linux-systeem.
+                            </p>
+                        </div>
+                        <div class="about__skill">
+                            <i class="ri-brush-line"></i>
+                            <h4 class="about__skill-title">Creatief Denken</h4>
+                            <p class="about__skill-description">Ik geloof dat creativiteit essentieel is voor het
+                                bedenken van nieuwe oplossingen. Ik combineer mijn technische skills met creatieve
+                                ideeën om producten te maken die zowel uniek als functioneel zijn.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="social__wrapper">
+                    <ul class="social__list">
+                        <li class="social__item">
+                            <a href="https://www.instagram.com/wzk_gabriel/" target="_blank" class="social__link">
+                                <i class="ri-instagram-fill"></i>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="https://www.linkedin.com/in/gabriel-wozniak-324432306/" target="_blank"
+                                class="social__link">
+                                <i class="ri-linkedin-fill"></i>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="https://github.com/FarBeoy" target="_blank" class="social__link">
+                                <i class="ri-github-fill"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section id="skills" class="section skills">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Vaardigheden</h2>
+                    <span class="section__subtitle">Wat ik kan</span>
+                </div>
+                <div class="skills__wrapper">
+                    <div class="skills__content">
+                        <h4 class="skills__subtitle">Front-End</h4>
+                        <ul class="skills__list">
+                            <li class="skills__item">
+                                <i class="ri-code-s-slash-line"></i> HTML
+                            </li>
+                            <li class="skills__item">
+                                <i class="ri-css3-line"></i> CSS (Tailwind)
+                            </li>
+                            <li class="skills__item">
+                                <i class="ri-terminal-box-line"></i> JavaScript (ExpressJS)
+                            </li>
+                            <li class="skills__item">
+                                <i class="ri-terminal-box-line"></i>React (NextJS)
+                            </li>
+                            <li class="skills__item">
+                                <i class="ri-terminal-box-line"></i>Electron
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="skills__content">
+                        <h4 class="skills__subtitle">Back-End</h4>
+                        <ul class="skills__list">
+                            <li class="skills__item">
+                                <i class="ri-terminal-box-line"></i>PHP
+                            </li>
+                            <li class="skills__item">
+                                <i class="ri-terminal-box-line"></i> C# (.NET)
+                            </li>
+                            <li class="skills__item">
+                                <i class="ri-database-2-fill"></i> SQLite
+                            </li>
+                            <li class="skills__item">
+                                <i class="ri-database-2-fill"></i> MySql
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="skills__content">
+                        <h4 class="skills__subtitle">Overige</h4>
+                        <ul class="skills__list">
+                            <li class="skills__item">
+                                <i class="ri-computer-line"></i> Linux
+                            </li>
+                            <li class="skills__item">
+                                <i class="ri-layout-6-fill"></i> VSCode
+                            </li>
+                            <li class="skills__item">
+                                <i class="ri-layout-6-fill"></i> PHPStorm
+                            </li>
+                            <li class="skills__item">
+                                <i class="ri-layout-6-fill"></i> Rider
+                            </li>
+                            <li class="skills__item">
+                                <i class="ri-pages-line"></i> Figma
+                            </li>
+                            <li class="skills__item">
+                                <i class="ri-pages-line"></i> Trello
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="project" class="section project">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Projecten</h2>
+                    <span class="section__subtitle">Mijn recente werk</span>
+                </div>
+                <div class="d-grid project__wrapper">
+                    <div class="project__content">
+                        <img src="assets/media/portfolio.PNG" alt="Project" class="project__img">
+                        <h3 class="project__title">Responsieve portfolio-website</h3>
+                        <p class="project__description">Een moderne en responsieve portfolio-website ontwikkeld met
+                            HTML, CSS en JavaScript. De site biedt een overzicht van mijn vaardigheden, projecten en
+                            ervaring als softwareontwikkelaar, met een speciale focus op cybersecurity.</p>
+                        <a href="#" class="project__link">Bekijk project
+                            <i class="ri-arrow-right-line"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer id="footer" class="footer">
+        <div class="container">
+            <p class="copyright">&copy; 2024 Gabriel Wozniak. All Rights Reserved</p>
+        </div>
+    </footer>
+</body>
+
+</html>
